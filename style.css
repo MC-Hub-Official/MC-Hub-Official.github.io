@@ -15,7 +15,7 @@ body {
 }
 
 .seed {
-  background-color: white;
+  background-color: white; !important
   border: 3px solid green;
 }
   
