@@ -2,5 +2,10 @@
   font-family: 'Nunito', sans-serif;
 }
 
-top {
+.top {
   background-image: url("minecraft.jpg");
+}
+
+.menulinks {
+  float: right;
+}
