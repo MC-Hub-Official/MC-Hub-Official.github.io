@@ -9,3 +9,8 @@
 .menulinks {
   float: right;
 }
+
+a {
+  text-decoration: none;
+  color: blue;
+}
