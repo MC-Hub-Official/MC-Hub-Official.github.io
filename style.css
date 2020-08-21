@@ -2,7 +2,7 @@
   font-family: 'Nunito', sans-serif;
 }
 
-.top {
+body {
   background-image: url("minecraft.jpg");
   background-repeat: no-repeat;
   background-size: cover;
