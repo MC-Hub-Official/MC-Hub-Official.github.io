@@ -14,6 +14,11 @@ body {
   font-size: 22px;
 }
 
+.seed {
+  background-color: white;
+  border: 3px solid green;
+}
+  
 a {
   text-decoration: none;
   color: blue;
