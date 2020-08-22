@@ -9,18 +9,18 @@ body {
   background-attachment: fixed;
 }
 
-.top {
+.menu {
   float: right;
-  font-size: 22px;
+  font-size: 30px;
 }
 
-.seed {
+.section {
   background-color: white;
-  border: 3px solid green;
+  border: 3px solid #0040FF;
   padding: 10px;
 }
   
 a {
   text-decoration: none;
-  color: blue;
+  color: #0040FF;
 }
