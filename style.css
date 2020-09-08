@@ -1,5 +1,5 @@
 * {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'nunito', sans-serif;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 .section {
   background-color: white;
   border: 3px solid #0040FF;
-  padding: 10px;
+  padding: 100px;
 }
   
 a {
