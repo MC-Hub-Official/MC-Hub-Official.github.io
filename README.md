@@ -3,6 +3,9 @@ MC Hub is a free online website with amazing tips to help you become a Minecraft
 
 # Credits:
 thegeek101
+
 Blaaze YT
+
 Krypto
+
 XxPROminerxX102
