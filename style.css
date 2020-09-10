@@ -12,6 +12,9 @@ body {
 .menu {
   float: right;
   font-size: 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .section {
