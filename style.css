@@ -19,6 +19,11 @@ body {
   border: 3px solid #0040FF;
   padding: 10px;
 }
+
+.supersection {
+  background-color: white;
+  border: 3px dashed #fc0303;
+  padding: 10px;
   
 a {
   text-decoration: none;
