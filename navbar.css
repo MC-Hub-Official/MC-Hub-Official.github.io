@@ -1,7 +1,7 @@
 /* Copied and pasted from W3Schools LOL */
 .navbar {
   overflow: hidden;
-  background-color: lightblue;
+  background-color: #5FB404;
   font-family: Arial;
 }
 
@@ -35,7 +35,7 @@
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: lime;
+  background-color: #5FB404;
 }
 
 /* Dropdown content (hidden by default) */
