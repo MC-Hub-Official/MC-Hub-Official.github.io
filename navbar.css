@@ -4,7 +4,6 @@
   background-color: #333;
   font-family: Arial;
   float: right;
-  position: fixed; /* Set the navbar to fixed position */
 }
 
 /* Links inside the navbar */
