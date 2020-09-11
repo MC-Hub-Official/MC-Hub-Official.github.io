@@ -1,7 +1,8 @@
 /* Copied and pasted from W3Schools LOL */
 .navbar {
   overflow: hidden;
-  background-color: #5FB404;
+  background-color: #0174DF;
+  float: left;
 }
 
 /* Links inside the navbar */
