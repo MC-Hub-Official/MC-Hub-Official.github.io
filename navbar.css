@@ -9,7 +9,7 @@
 .navbar a {
   float: left;
   font-size: 16px;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -26,7 +26,7 @@
   font-size: 16px;
   border: none;
   outline: none;
-  color: white;
+  color: grey;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
