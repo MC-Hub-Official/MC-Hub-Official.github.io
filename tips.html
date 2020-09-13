@@ -1,5 +1,6 @@
 <html>
   <head>
+    <script src="javascript.js"/>
     <script async src="https://cse.google.com/cse.js?cx=c9e60bf9b9fec089e"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar.css">
@@ -7,25 +8,8 @@
     <title> MC Hub </title>
   </head>
   <body>
-    <div class="logo">
-      <img src="MC-Hub.png" width="260" height="63"/>
-      <br>
-    </div>
-    <div class="navbar">
-      <div class="dropdown">
-        <button class="dropbtn">Pages
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="index.html">Hub</a>
-          <a href="tips.html">Tips</a>
-          <a href="facts.html">Facts</a>
-          <a href="seeds.html">Seeds</a>
-          <a href="commands.html">Commands</a>
-        </div>
-      </div>
-    </div>
-    <br><br><br>
+    <!-- DO NOT REMOVE THE <div id="nav"> tag! -->
+    <div id="nav" onload="setupMenu();">
     <div class="section">
       <h3> The fastest ways to move </h3>
       <p> In Survival, the fastest way to move is sprinting while jumping roughly every second, standing on ice with trapdoors above you. The effects of Speed help too. </p>
