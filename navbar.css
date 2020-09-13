@@ -3,6 +3,7 @@
   overflow: hidden;
   background-color: #0174DF;
   float: left;
+  position: fixed;
 }
 
 /* Links inside the navbar */
@@ -18,7 +19,6 @@
 /* The dropdown container */
 .dropdown {
   float: left;
-  overflow: hidden;
 }
 
 /* Dropdown button */
