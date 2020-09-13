@@ -9,3 +9,12 @@ Blaaze YT
 Krypto
 
 XxPROminerxX102
+
+# IMPORTANT!
+Please remember to close HTML tags, and CSS Classes!
+
+Also please do not tamper with the CSS or mess around with the code!
+
+Do not remove any of the code in the Head tag!
+
+# :D
