@@ -25,3 +25,7 @@ a {
   text-decoration: none;
   color: #0040FF;
 }
+
+.logo {
+  float: right;
+}
