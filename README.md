@@ -10,11 +10,9 @@ Krypto
 
 XxPROminerxX102
 
-# IMPORTANT!
-Please remember to close HTML tags, and CSS Classes!
+# Developers!
+Do not edit the javascript.js file under any circumstances!
 
-Also please do not tamper with the CSS or mess around with the code!
-
-Do not remove any of the code in the Head tag!
+Please remember to close HTML tags!
 
 # :D
