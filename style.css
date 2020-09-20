@@ -26,6 +26,11 @@ a {
   color: #0040FF;
 }
 
+a2 {
+  text-decoration: none;
+  color: #00ffe5;
+}
+
 
 .logo {
   float: right;
