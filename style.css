@@ -2,6 +2,14 @@
   font-family: 'Nunito', sans-serif;
 }
 
+SAVAGECABBAGE {
+  background-image: url("minecraft.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+  
+
 body {
   background-image: url("minecraft.jpg");
   background-repeat: no-repeat;
