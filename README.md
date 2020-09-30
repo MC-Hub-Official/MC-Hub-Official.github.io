@@ -15,5 +15,5 @@ Do not edit the javascript.js file under any circumstances!
 
 Please remember to close HTML tags!
 
-# Developers Chat :smiley:
+# Developers Chat
 [KryptoYT] Hello :smiley: 
