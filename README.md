@@ -14,6 +14,3 @@ XxPROminerxX102
 Do not edit the javascript.js file under any circumstances!
 
 Please remember to close HTML tags!
-
-# Developers Chat
-[KryptoYT] Hello :smiley: 
