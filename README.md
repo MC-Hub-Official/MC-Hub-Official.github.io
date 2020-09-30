@@ -13,4 +13,7 @@ XxPROminerxX102
 # Developers!
 Do not edit the javascript.js file under any circumstances!
 
-Please remember to close HTML tags!no
+Please remember to close HTML tags!
+
+# Developers Chat :smiley:
+<KryptoYT> Hello :smiley:
