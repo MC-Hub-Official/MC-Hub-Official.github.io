@@ -16,4 +16,4 @@ Do not edit the javascript.js file under any circumstances!
 Please remember to close HTML tags!
 
 # Developers Chat :smiley:
-<p> <KryptoYT> Hello :smiley: </p>
+[KryptoYT] Hello :smiley: 
