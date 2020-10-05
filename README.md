@@ -8,8 +8,6 @@ Blaaze YT
 
 Krypto
 
-XxPROminerxX102
-
 # Developers!
 Do not edit the javascript.js file under any circumstances!
 
