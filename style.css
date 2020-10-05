@@ -2,13 +2,12 @@
   font-family: 'Nunito', sans-serif;
 }
 
-SAVAGECABBAGE {
+/* SAVAGECABBAGE {
   background-image: url("minecraft.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
-  
+} */
 
 body {
   background-image: url("minecraft.jpg");
@@ -35,37 +34,30 @@ a {
 }
 
 a2 {
-  text-decoration: none;
   color: #fc0303;
 }
 
 a3 {
-  text-decoration: none;
   color: #fc9403;
 }
 
 a4 {
-  text-decoration: none;
   color: #fcf803;
 }
 
 a5 {
-  text-decoration: none;
   color: #22ff00;
 }
 
 a6 {
-  text-decoration: none;
   color: #03fce8;
 }
 
 a7 {
-  text-decoration: none;
   color: #2b00ff;
 }
 
 a8 {
-  text-decoration: none;
   color: #9000ff;
 }
 
