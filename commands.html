@@ -1,55 +1,67 @@
 <html>
-  <script src="javascript.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <!-- DO NOT REMOVE THE <head></head> or the <div id="nav"></div> or the <div id="foot"></div> tag! -->
-  <head></head>
-  <div id="nav"></div>
-  <body onload="setupMenu();">
-    <div class="section">
-      <h3> Clone </h3>
-      <p> The /clone command can be used to replicate a set of blocks somewhere else! It will save you a lot of time when building a row of houses, for example. </p>
-      <p> /clone [x, y, z] [x, y, z] [x, y, z] [optional:type] </p>
-      <p> Example: /clone 72 64 -129 83 73 -160 ~ ~ ~ </p>
-      <p> This will clone all the blocks from 72 64 -129 (the bottom back left corner) to 83 73 -160 (the top front right corner) of a 3d structure to ~ ~ ~ (where you are standing)
-      <p> So the cloned structure's bottom back left corner will reappear where you were standing. You can also replace ~ ~ ~ with a set of coordinates to clone it there instead. </p>
-      <p> Use "move" at the end of the command to remove the original structure but keep the duplicate. "replace" is the default. </p>
-      <p> Remember, you can turn on Show Coordinates in the Settings menu if playing Bedrock edition. It may also lag a bit before it clones. <p>
-    </div>
-    <br>
-    <div class="section">
-      <h3> Fill </h3>
-      <p> The /fill command can be used to create solid walls, cubes, or cuboids, in a matter of seconds. </p>
-      <p> /fill [x, y, z] [x, y, z] [block] [optional:data] </p>
-      <p> Example: /fill ~ ~ ~ 94 68 -228 wool </p>
-      <p> That will create a solid wall from where you are standing to 94 68 -228 out of white wool. </p>
-      <p> For wool, experiment with adding numbers from 1-16 (the number of different colours of wool) to the end to change the colour! </p>
-      <p> For wood, 1-8 at the end for different types. </p>
-    </div>
-    <br>
-    <div class="section">
-      <h3> Give </h3>
-      <p> Use /give to put items in a player's inventory. </p>
-      <p> /give [player] [item] [amount] [optional:data] </p>
-      <p> Example: /give @p wool 64 </p>
-      <p> This will give the closest player 64 white wool. </p>
-      <p> For wool, experiment with adding numbers from 1-16 (the number of different colours of wool) to the end to change the colour! </p>
-      <p> For wood, 1-8 at the end for different types. </p>
-    </div>
-    <br>
-    <div class="section">
-      <h3> Say </h3>
-      <p> The /say command is probably the easiest, and in the chat, is practically useless. </p>
-      <p> /say [text] </p>
-      <p> Example: /say hi guys MC Hub is a great site </p>
-    </div>
-    <br>
-    <div class="section">
-      <h3> Setblock </h3>
-      <p> The setblock command is like the fill command, except it only sets one block. </p>
-      <p> /setblock [x, y, z] [block] [optional:data] </p>
-      <p> So you enter the coordinates of the spot where you want it, then enter the block, and if you want, the data. </p>
-      <p> /setblock 1 5 1 wool 3 </p>
-    </div>
-    <div id="foot"></div>
-  </body>
+<script src="js/javascript.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- DO NOT REMOVE THE <head></head> or the <div id="nav"></div> or the <div id="foot"></div> tag! -->
+
+<head></head>
+<div id="nav"></div>
+
+<body onload="setupMenu();">
+  <div class="section">
+    <h3> Clone </h3>
+    <p> The /clone command can be used to replicate a set of blocks somewhere else! It will save you a lot of time when
+      building a row of houses, for example. </p>
+    <p> /clone [x, y, z] [x, y, z] [x, y, z] [optional:type] </p>
+    <p> Example: /clone 72 64 -129 83 73 -160 ~ ~ ~ </p>
+    <p> This will clone all the blocks from 72 64 -129 (the bottom back left corner) to 83 73 -160 (the top front right
+      corner) of a 3d structure to ~ ~ ~ (where you are standing)
+    <p> So the cloned structure's bottom back left corner will reappear where you were standing. You can also replace ~
+      ~ ~ with a set of coordinates to clone it there instead. </p>
+    <p> Use "move" at the end of the command to remove the original structure but keep the duplicate. "replace" is the
+      default. </p>
+    <p> Remember, you can turn on Show Coordinates in the Settings menu if playing Bedrock edition. It may also lag a
+      bit before it clones.
+    <p>
+  </div>
+  <br>
+  <div class="section">
+    <h3> Fill </h3>
+    <p> The /fill command can be used to create solid walls, cubes, or cuboids, in a matter of seconds. </p>
+    <p> /fill [x, y, z] [x, y, z] [block] [optional:data] </p>
+    <p> Example: /fill ~ ~ ~ 94 68 -228 wool </p>
+    <p> That will create a solid wall from where you are standing to 94 68 -228 out of white wool. </p>
+    <p> For wool, experiment with adding numbers from 1-16 (the number of different colours of wool) to the end to
+      change the colour! </p>
+    <p> For wood, 1-8 at the end for different types. </p>
+  </div>
+  <br>
+  <div class="section">
+    <h3> Give </h3>
+    <p> Use /give to put items in a player's inventory. </p>
+    <p> /give [player] [item] [amount] [optional:data] </p>
+    <p> Example: /give @p wool 64 </p>
+    <p> This will give the closest player 64 white wool. </p>
+    <p> For wool, experiment with adding numbers from 1-16 (the number of different colours of wool) to the end to
+      change the colour! </p>
+    <p> For wood, 1-8 at the end for different types. </p>
+  </div>
+  <br>
+  <div class="section">
+    <h3> Say </h3>
+    <p> The /say command is probably the easiest, and in the chat, is practically useless. </p>
+    <p> /say [text] </p>
+    <p> Example: /say hi guys MC Hub is a great site </p>
+  </div>
+  <br>
+  <div class="section">
+    <h3> Setblock </h3>
+    <p> The setblock command is like the fill command, except it only sets one block. </p>
+    <p> /setblock [x, y, z] [block] [optional:data] </p>
+    <p> So you enter the coordinates of the spot where you want it, then enter the block, and if you want, the data.
+    </p>
+    <p> /setblock 1 5 1 wool 3 </p>
+  </div>
+  <div id="foot"></div>
+</body>
+
 </html>

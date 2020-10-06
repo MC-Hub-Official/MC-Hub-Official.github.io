@@ -10,7 +10,7 @@
 } */
 
 body {
-  background-image: url("minecraft.jpg");
+  background-image: url("../img/minecraft.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
