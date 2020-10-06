@@ -6,3 +6,7 @@
 [KryptoYT] MC Hub Coding!! :grinning: :smiley: :smiley: :smiley:
 
 [Blaaze] WASSUP GUYS!
+
+[KryptoYT] no
+
+[KryptoYT] What is the sitemap.xml? :confused:
