@@ -36,6 +36,7 @@
 /* Add a green background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #5FB404;
+  cursor: pointer;
 }
 
 /* Dropdown content (hidden by default) */
