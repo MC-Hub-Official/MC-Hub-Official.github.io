@@ -8,3 +8,5 @@
 [Blaaze] WASSUP GUYS!
 
 [KryptoYT] no
+
+[KryptoYT] What is the sitemap.xml? :confused:
