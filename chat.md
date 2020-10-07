@@ -10,3 +10,5 @@
 [KryptoYT] no
 
 [KryptoYT] What is the sitemap.xml? :confused:
+
+[KryptoYT] Nvm u told me at school
