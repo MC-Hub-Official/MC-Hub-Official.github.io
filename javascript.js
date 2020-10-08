@@ -4,3 +4,9 @@ function setup() {
     $("#nav").html('<div class="logo"><img src="images/MC-Hub.png" width="260" height="63"/><br></div><div class="navbar"><div class="dropdown"><button class="dropbtn">Menu</button><div class="dropdown-content"><a href="index.html">Hub</a><a href="tips.html">Tips</a><a href="facts.html">Facts</a><a href="seeds.html">Seeds</a><a href="commands.html">Commands</a></div></div></div><br><br><br>');
     $("#foot").html('<a href="https://www.youtube.com/channel/UCP2347E62P5fcoC2eK8QiPg" style="float:right; color: #FF0000; font-size: 28px;">YouTube</a><a href="https://account.xbox.com/en-gb/profile?gamertag=MCHubSite" style="float:left; color: #4B8A08; font-size: 28px;">Xbox</a><br><p style="color: white;">This website uses cookies from Google to enable marketing services such as Google Analytics, Google Optimize, and Google Programmable Search. Your data is completely anonymous.');
 }
+
+class hi {
+    public static void main(String[] args) {
+        System.printIn('HALLO');
+    }
+}
