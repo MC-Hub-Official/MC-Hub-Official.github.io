@@ -12,3 +12,5 @@
 [KryptoYT] What is the sitemap.xml? :confused:
 
 [KryptoYT] Nvm u told me at school
+
+[Blaaze] This is a very weird thing
