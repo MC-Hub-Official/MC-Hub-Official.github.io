@@ -1,6 +1,25 @@
 // DO NOT EDIT THIS: VITAL FILE
-var background = "url('/images/backgrounds" + getDay() + ".png')";
-document.body.style.backgroundImage = background;
+if (getDay() == 0) {
+    document.body.style.backgroundImage = "url('/images/backgrounds/0.png')";
+}
+if (getDay() == 1) {
+    document.body.style.backgroundImage = "url('/images/backgrounds/1.png')";
+}
+if (getDay() == 2) {
+    document.body.style.backgroundImage = "url('/images/backgrounds/2.png')";
+}
+if (getDay() == 3) {
+    document.body.style.backgroundImage = "url('/images/backgrounds/3.png')";
+}
+if (getDay() == 4) {
+    document.body.style.backgroundImage = "url('/images/backgrounds/4.png')";
+}
+if (getDay() == 5) {
+    document.body.style.backgroundImage = "url('/images/backgrounds/5.png')";
+}
+if (getDay() == 6) {
+    document.body.style.backgroundImage = "url('/images/backgrounds/6.png')";
+}
 
 function setup() {
     $("head").html('<meta name="viewport" content="width=device-width, initial-scale=1"><script src="https://www.googleoptimize.com/optimize.js?id=OPT-TNV37V3"></script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-179487034-1"></script><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-179487034-1");</script><script async src="https://cse.google.com/cse.js?cx=c9e60bf9b9fec089e"></script><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/navbar.css"><link rel="stylesheet" href="/css/colours.css"><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet"><title> MC Hub </title>');
