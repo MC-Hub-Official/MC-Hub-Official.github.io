@@ -1,8 +1,6 @@
 // DO NOT EDIT THIS: VITAL FILE
 var d = new Date();
-
 var bgImages = ["url(/images/backgrounds/0.png", "url(/images/backgrounds/1.png", "url(/images/backgrounds/2.png", "url(/images/backgrounds/3.png", "url(/images/backgrounds/4.png", "url(/images/backgrounds/5.png", "url(/images/backgrounds/6.png"];
-console.log(d.getDay());
 
 function setup() {
     document.body.style.backgroundImage = bgImages[d.getDay()];
