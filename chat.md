@@ -14,3 +14,5 @@
 [KryptoYT] Nvm u told me at school
 
 [Blaaze] This is a very weird thing
+
+[thegeek101] WASSUP marlo is the best omg
