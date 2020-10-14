@@ -1,23 +1,25 @@
 // DO NOT EDIT THIS: VITAL FILE
-if (getDay() == 0) {
+var d = new Date();
+
+if (d.getDay() == 0) {
     document.body.style.backgroundImage = "url('/images/backgrounds/0.png')";
 }
-if (getDay() == 1) {
+if (d.getDay() == 1) {
     document.body.style.backgroundImage = "url('/images/backgrounds/1.png')";
 }
-if (getDay() == 2) {
+if (d.getDay() == 2) {
     document.body.style.backgroundImage = "url('/images/backgrounds/2.png')";
 }
-if (getDay() == 3) {
+if (d.getDay() == 3) {
     document.body.style.backgroundImage = "url('/images/backgrounds/3.png')";
 }
-if (getDay() == 4) {
+if (d.getDay() == 4) {
     document.body.style.backgroundImage = "url('/images/backgrounds/4.png')";
 }
-if (getDay() == 5) {
+if (d.getDay() == 5) {
     document.body.style.backgroundImage = "url('/images/backgrounds/5.png')";
 }
-if (getDay() == 6) {
+if (d.getDay() == 6) {
     document.body.style.backgroundImage = "url('/images/backgrounds/6.png')";
 }
 
