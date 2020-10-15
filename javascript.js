@@ -2,13 +2,6 @@
 var d = new Date();
 var bgImages = ["url(/images/backgrounds/0.png", "url(/images/backgrounds/1.png", "url(/images/backgrounds/2.png", "url(/images/backgrounds/3.png", "url(/images/backgrounds/4.png", "url(/images/backgrounds/5.png", "url(/images/backgrounds/6.png"];
 
-function loadJquery() {
-  var newtag = document.createElement('script');
-  newtag.type = 'text/javascript';
-  newtag.src = 'https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js';
-  document.getElementsByTagName('head')[0].appendChild(newtag);
-};
-
 function setup() {
     document.body.style.backgroundImage = bgImages[d.getDay()];
     $("#nav").html('<div class="logo"><img src="/images/MC-Hub.png" width="260" height="63"/><br></div><div class="navbar"><div class="dropdown"><button class="dropbtn">Menu</button><div class="dropdown-content"><a href="/index.html">Hub</a><a href="/tips.html">Tips</a><a href="/facts.html">Facts</a><a href="/seeds.html">Seeds</a><a href="/commands.html">Commands</a></div></div></div><br><br><br>');
