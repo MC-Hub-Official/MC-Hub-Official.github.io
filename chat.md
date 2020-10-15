@@ -15,8 +15,6 @@
 
 [Blaaze] This is a very weird thing
 
-[thegeek101] OMG marlo is the best wow!
-
-[thegeek101] THAT WAS MARLO
-
 [KryptoYT] Oof messages is very slow...
+
+[thegeek101] please do not edit navigation.html (or javascript.js) :frowning:
