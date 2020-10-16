@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://www.mchub.ga/</loc>
-<changefreq>daily</changefreq>
-<priority>1</priority>
-</url>
-<url>
-<loc>http://www.mchub.ga/tips.html</loc>
-<changefreq>daily</changefreq>
-<priority>2</priority>
-</url>
-<url>
-<loc>http://www.mchub.ga/facts.html</loc>
-<changefreq>daily</changefreq>
-<priority>3</priority>
-</url>
-<url>
-<loc>http://www.mchub.ga/seeds.html</loc>
-<changefreq>daily</changefreq>
-<priority>4</priority>
-</url>
-<url>
-<loc>http://www.mchub.ga/commands.html</loc>
-<changefreq>daily</changefreq>
-<priority>5</priority>
-</url>
+  <url>
+    <loc>http://www.mchub.ga/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>http://www.mchub.ga/tips.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>2</priority>
+  </url>
+  <url>
+    <loc>http://www.mchub.ga/facts.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>3</priority>
+  </url>
+  <url>
+    <loc>http://www.mchub.ga/seeds.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>4</priority>
+  </url>
+  <url>
+    <loc>http://www.mchub.ga/commands.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>5</priority>
+  </url>
 </urlset>
