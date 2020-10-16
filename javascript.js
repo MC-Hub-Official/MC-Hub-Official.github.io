@@ -4,7 +4,7 @@ var bgImages = ["url(/images/backgrounds/0.png", "url(/images/backgrounds/1.png"
 
 class MCHubFooter extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = '<a href="https://account.xbox.com/en-gb/profile?gamertag=MCHubSite" class="green" style="float:left; font-size: 28px;">Xbox</a><a href="https://www.youtube.com/channel/UCP2347E62P5fcoC2eK8QiPg" class="red" style="float:right; font-size: 28px;">YouTube</a><br><br><a href="https://forms.gle/qCJSTPwh7tZ5esb98" class="orange" style="float:left; font-size: 28px;">Have a tip?</a><a href="https://forms.gle/eAo3zhGsSRm81ja88" class="orange" style="float:right; font-size: 28px;">Have a seed?</a><br><p style="color: white;">This website uses cookies from Google to enable marketing services such as Google Analytics. Your data is completely anonymous.';
+    this.innerHTML = '<a href="https://account.xbox.com/en-gb/profile?gamertag=MCHubSite" class="green" style="float:left; font-size: 28px;">Xbox</a><a href="https://www.youtube.com/channel/UCP2347E62P5fcoC2eK8QiPg" class="red" style="float:right; font-size: 28px;">YouTube</a><center><p class="white> Suggest a <a href=https://forms.gle/qCJSTPwh7tZ5esb98">tip </a> or a <a href="https://forms.gle/eAo3zhGsSRm81ja88">seed</a>!</p></center><br><br><p class="white">This website uses cookies from Google to enable marketing services such as Google Analytics. Your data is completely anonymous.';
   }
 }
 
