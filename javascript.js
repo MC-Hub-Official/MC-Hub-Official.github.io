@@ -1,4 +1,4 @@
-// DO NOT EDIT THIS
+// DO NOT EDIT THIS PLEASE
 var d = new Date();
 var bgImages = ["url(/images/backgrounds/0.png", "url(/images/backgrounds/1.png", "url(/images/backgrounds/2.png", "url(/images/backgrounds/3.png", "url(/images/backgrounds/4.png", "url(/images/backgrounds/5.png", "url(/images/backgrounds/6.png"];
 window.customElements.define('mchub-footer', class extends HTMLElement {});
