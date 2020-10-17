@@ -19,6 +19,6 @@
 
 [thegeek101] please do not edit navigation.html (or javascript.js) :frowning:
 
-[Blaaze] Pls dont change 404.html pls pls 🥺
+[Blaaze] Pls dont change 404.html pls pls :sorry:
 
-[thegeek101] MARLO!!! NAVIGATION.HTML IS FOR DEVELOPERS ONLY!
+[thegeek101] Hai peeps!
