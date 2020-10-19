@@ -22,3 +22,5 @@
 [Blaaze] Pls dont change 404.html pls pls
 
 [thegeek101] Hai peeps!
+
+[KryptoYT] +[Blaaze] ok i wont change 404.html :smiley:
