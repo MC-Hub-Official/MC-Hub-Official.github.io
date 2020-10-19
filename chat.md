@@ -23,6 +23,4 @@
 
 [thegeek101] Hai peeps!
 
-[KryptoYT] +[Blaaze] ok i wont change 404.html :smiley:
-
-[MCHUBSITE] hai
+[KryptoYT] + [Blaaze] ok i wont change 404.html :smiley:
