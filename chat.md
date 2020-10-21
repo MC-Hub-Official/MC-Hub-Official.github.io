@@ -25,4 +25,4 @@
 
 [KryptoYT] + [Blaaze] ok i wont change 404.html :smiley:
 
-[thegeek101] Cool facts Christopher! check out the new seed from Anonymous (guess who that is :embarrassed:
+[thegeek101] Cool facts Christopher! check out the new seed from Anonymous (guess who that is :flushed:)
