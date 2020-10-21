@@ -1,0 +1,1 @@
+lol = str(object='lol')
