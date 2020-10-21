@@ -59,21 +59,24 @@
       <p> With "title", the message would cover most of the player's screen. </p>
       <p> With "subtitle", it would show a slightly smaller message below the title although you can't do just a subtitile you'll need a title as well.</p>
       <p> And with "actionbar", it would show up above your XP bar. </p>
-      <p> /title [Gamertag] title You win! </p>
+      <p> /title MCHubSite title You win! </p>
     </div>
     <br>
     <div class="section">
       <h3> Kill </h3>
-      <p> The kill command will allow you to instantly kill any entity except for players in creative or spectate gamemodes. </p>
+      <p> The kill command will allow you to instantly kill any entity, except for players in creative or spectators. </p>
       <p> The player kill command is /kill [player] </p>
       <p> The entity kill command is /kill [entity] </p>
-      <p> or you can kill all entities/players with /kill @e </p>
+      <p> Or you can kill all entities/players with /kill @e </p>
+      <p> You can also choose a specific type of entity to kill with /kill @e[type=type] </p>
+      <p> So to kill all silverfish, do /kill @e[type=silverfish] </p>
     </div>
     <br>
     <div class="section">
       <h3> Summon </h3>
-      <p> The summon command will allow you to instantly summon any entity anywere in your Minecraft world including underground. </p>
+      <p> The summon command will allow you to instantly spawn any entity in your Minecraft world. </p>
       <p> Example: /summon [entity] [x],[y],[z] </p>
+      <p> So to spawn a Wither at your coordinates, do /summon wither ~ ~ ~ , or simply /summon wither
     </div>
     <br>
     <div class="section">
@@ -84,17 +87,18 @@
     </div>
     <br>
     <div class="section">
-      <h3> Time Set </h3>
-      <p> The time set command can change the time to anything you like. </p>
-      <p> Example: /timeset [Time] </p>
+      <h3> Time </h3>
+      <p> The time command can change the time to anything you like. </p>
+      <p> Example: /time set [Time] </p>
       <p> Options include: “1000” for day, “0” for dawn, “6000” for midday, “12000” for dusk and “18000” for night. </p>
+      <p> You can also do /time add to add minutes on to the current time. </p>
     </div>
     <br>
     <div class="section">
       <h3> Gamerule </h3>
       <p> The gamerule commands can change the way your world works. </p>
       <p> Example: /gamerule [gamerule] [true/false] </p>
-      <p> Options include: “1000” for day, “0” for dawn, “6000” for midday, “12000” for dusk and “18000” for night. </p>
+      <p> Some common ones are keepinventory and commandblockoutput. </p>
     </div>
     <mchub-footer></mchub-footer>
   </body>
