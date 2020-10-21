@@ -1,1 +1,1 @@
-lol = str(object='lol')
+
