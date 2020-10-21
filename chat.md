@@ -1,4 +1,4 @@
-# Developers Chat
+# Chat
 [KryptoYT] Hello :smiley:
 
 [thegeek101] Hai :grinning:
