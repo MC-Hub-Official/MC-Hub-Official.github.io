@@ -3,7 +3,7 @@ MC Hub is a free online website with amazing tips, seeds, facts and commands to 
 
 # Credits
 
-• thegeek101
+• ninjadev64
 
 • Blaaze
 
