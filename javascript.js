@@ -10,7 +10,7 @@ class MCHubHeader extends HTMLElement {
 
 class MCHubFooter extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = '<a href="https://account.xbox.com/en-gb/profile?gamertag=MCHubSite" class="green" style="float:left; font-size: 28px;">Xbox</a><a href="https://www.youtube.com/channel/UCP2347E62P5fcoC2eK8QiPg?sub_confirmation=1" class="red" style="float:right; font-size: 28px;">YouTube</a><br><br><div style="font-size: 24; text-align: center; display: inline;"><a class="white" style="display: inline;" href="/rss.xml" download> Subscribe to RSS for MC Hub! </a></div><br><p class="white">This website uses cookies from Google to enable marketing services such as Google Analytics. Your data is completely anonymous. </p><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f99d530b340a42f"></script>';
+    this.innerHTML = '<hr><a href="https://account.xbox.com/en-gb/profile?gamertag=MCHubSite" class="green" style="float:left; font-size: 28px;">Xbox</a><a href="https://www.youtube.com/channel/UCP2347E62P5fcoC2eK8QiPg?sub_confirmation=1" class="red" style="float:right; font-size: 28px;">YouTube</a><br><br><div style="font-size: 24; text-align: center; display: inline;"><a class="white" style="display: inline;" href="/rss.xml" download> Subscribe to RSS for MC Hub! </a></div><br><p class="white">This website uses cookies from Google to enable marketing services such as Google Analytics. Your data is completely anonymous. </p><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f99d530b340a42f"></script>';
   }
 }
 
@@ -21,4 +21,3 @@ function setup() {
     document.body.style.backgroundImage = bgImages[d.getDay()];
     document.getElementsByTagName("head")[0].innerHTML = '<link rel="icon" href="/images/favicon.ico" type="image/x-icon"><meta name="viewport" content="width=device-width, initial-scale=1"><script src="https://www.googleoptimize.com/optimize.js?id=OPT-TNV37V3"></script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-179487034-1"></script><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-179487034-1");</script><script async src="https://cse.google.com/cse.js?cx=c9e60bf9b9fec089e"></script><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/navbar.css"><link rel="stylesheet" href="/css/colours.css"><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet"><title> MC Hub </title>';
 }
-
