@@ -10,7 +10,7 @@ class MCHubHeader extends HTMLElement {
 
 class MCHubFooter extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = '<hr><a href="https://account.xbox.com/en-gb/profile?gamertag=MCHubSite" class="green" style="float:left; font-size: 28px;">Xbox</a><a href="https://www.youtube.com/channel/UCP2347E62P5fcoC2eK8QiPg?sub_confirmation=1" class="red" style="float:right; font-size: 28px;">YouTube</a><br><br><div style="font-size: 24; text-align: center; display: inline;"><a class="white" style="display: inline;" href="/rss.xml" download> Subscribe to RSS for MC Hub! </a></div><br><p class="white">This website uses cookies from Google to enable marketing services such as Google Analytics. Your data is completely anonymous. </p><div class="gcse-search" style="height: 50px !important; visibility: visible;"></div>';
+    this.innerHTML = '<hr><a href="https://account.xbox.com/en-gb/profile?gamertag=MCHubSite" class="green" style="float:left; font-size: 28px;">Xbox</a><a href="https://www.youtube.com/channel/UCP2347E62P5fcoC2eK8QiPg?sub_confirmation=1" class="red" style="float:right; font-size: 28px;">YouTube</a><br><br><div style="font-size: 24; text-align: center; display: inline;"><a class="white" style="display: inline;" href="/rss.xml" download> Subscribe to RSS for MC Hub! </a></div><br><p class="white">This website uses cookies from Google to enable marketing services such as Google Analytics. Your data is completely anonymous. </p>';
   }
 }
 
