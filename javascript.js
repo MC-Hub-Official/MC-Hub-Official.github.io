@@ -4,13 +4,13 @@ var bgImages = ["url(/images/backgrounds/0.png", "url(/images/backgrounds/1.png"
 
 class MCHubHeader extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = '<div class="logo"><img src="/images/MC-Hub.png" width="260" height="63"/><br></div><div class="navbar"><div class="dropdown"><button class="dropbtn">Menu</button><div class="dropdown-content"><a href="/index.html">Hub</a><a href="/tips.html">Tips</a><a href="/facts.html">Facts</a><a href="/seeds.html">Seeds</a><a href="/commands.html">Commands</a></div></div></div></div><br><br><br>';
+    this.innerHTML = '<div class="logo"><img src="/images/MC-Hub.png" width="260" height="63"/><br></div><div class="navbar"><div class="dropdown"><button class="dropbtn">Menu</button><div class="dropdown-content"><a href="/index.html">Hub</a><a href="/tips.html">Tips</a><a href="/facts.html">Facts</a><a href="/seeds.html">Seeds</a><a href="/commands.html">Commands</a></div></div></div><br><br><br>';
   }
 }
 
 class MCHubFooter extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = '<hr><a href="https://account.xbox.com/en-gb/profile?gamertag=MCHubSite" class="green" style="float:left; font-size: 28px;">Xbox</a><a href="https://www.youtube.com/channel/UCP2347E62P5fcoC2eK8QiPg?sub_confirmation=1" class="red" style="float:right; font-size: 28px;">YouTube</a><br><br><div style="font-size: 24; text-align: center; display: inline;"><a class="white" style="display: inline;" href="/rss.xml" download> Subscribe to RSS for MC Hub! </a></div><br><p class="white">This website uses cookies from Google to enable marketing services such as Google Analytics. Your data is completely anonymous. </p><div class="gcse-search" style="height: 50px !important; visibility: visible;">';
+    this.innerHTML = '<hr><a href="https://account.xbox.com/en-gb/profile?gamertag=MCHubSite" class="green" style="float:left; font-size: 28px;">Xbox</a><a href="https://www.youtube.com/channel/UCP2347E62P5fcoC2eK8QiPg?sub_confirmation=1" class="red" style="float:right; font-size: 28px;">YouTube</a><br><br><div style="font-size: 24; text-align: center; display: inline;"><a class="white" style="display: inline;" href="/rss.xml" download> Subscribe to RSS for MC Hub! </a></div><br><p class="white">This website uses cookies from Google to enable marketing services such as Google Analytics. Your data is completely anonymous. </p><div class="gcse-search" style="height: 50px !important; visibility: visible;"></div>';
   }
 }
 
