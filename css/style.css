@@ -13,6 +13,10 @@ body {
   border: 3px solid #0174DF;
   padding: 10px;
 }
+
+.section:hover {
+  border: 3px solid #31B404;
+}
   
 a {
   text-decoration: none;
