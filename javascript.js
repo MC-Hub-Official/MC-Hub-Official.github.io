@@ -4,7 +4,7 @@ var bgImages = ["url(https://cdn.mchub.ga/backgrounds/0.png)", "url(https://cdn.
 
 class MCHubHeader extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = '<div class="logo"><img src="https://cdn.mchub.ga/logos/logo.png" width="260" height="63"/><br></div><div class="navbar"><div class="dropdown"><button class="dropbtn">Menu</button><div class="dropdown-content"><a href="/index.html">Hub</a><a href="/tips.html">Tips</a><a href="/facts.html">Facts</a><a href="/seeds.html">Seeds</a><a href="/commands.html">Commands</a></div></div></div><br><br><br>';
+    this.innerHTML = '<div class="logo"><img src="https://cdn.mchub.ga/logos/logo.png" width="260" height="63"/><br></div><div class="navbar"><div class="dropdown"><button class="dropbtn">Menu</button><div class="dropdown-content"><a href="/">Hub</a><a href="/tips">Tips</a><a href="/facts">Facts</a><a href="/seeds">Seeds</a><a href="/commands">Commands</a></div></div></div><br><br><br>';
   }
 }
 
