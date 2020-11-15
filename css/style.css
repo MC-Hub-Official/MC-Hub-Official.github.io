@@ -10,12 +10,12 @@ body {
 
 .section {
   background-color: white;
-  border: 3px solid #0174DF !important;
+  border: 3px solid #0174DF;
   padding: 10px;
 }
 
 .section:hover {
-  border: 3px solid #31B404;
+  border: 3px solid #31B404 !important;
 }
   
 a {
