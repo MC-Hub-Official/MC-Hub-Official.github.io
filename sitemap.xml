@@ -20,4 +20,8 @@
     <loc>https://www.mchub.ga/commands</loc>
     <changefreq>daily</changefreq>
   </url>
+  <url>
+    <loc>https://www.mchub.ga/search</loc>
+    <changefreq>daily</changefreq>
+  </url>
 </urlset>
