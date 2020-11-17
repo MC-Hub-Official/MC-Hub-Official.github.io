@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.mchub.ga/</loc>
+    <loc>https://www.mchub.ga/</loc>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>http://www.mchub.ga/tips.html</loc>
+    <loc>https://www.mchub.ga/tips</loc>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>http://www.mchub.ga/facts.html</loc>
+    <loc>https://www.mchub.ga/facts</loc>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>http://www.mchub.ga/seeds.html</loc>
+    <loc>https://www.mchub.ga/seeds</loc>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>http://www.mchub.ga/commands.html</loc>
+    <loc>https://www.mchub.ga/commands</loc>
     <changefreq>daily</changefreq>
   </url>
 </urlset>
