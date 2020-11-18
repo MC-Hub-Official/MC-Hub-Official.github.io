@@ -17,6 +17,12 @@ body {
 .section:hover {
   border: 3px solid #31B404 !important;
 }
+
+.message {
+  background-color: white;
+  border: 3px solid #8A0886;
+  padding: 10px;
+}
   
 a {
   text-decoration: none;
