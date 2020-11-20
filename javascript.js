@@ -20,6 +20,7 @@ customElements.define('mchub-header', MCHubHeader);
 function setup() {
   var head = document.head;
   document.body.style.backgroundImage = bgImages[d.getDay()];
+  
   // Insert site metadata
   head.insertAdjacentHTML("beforeend", '<title> MC Hub </title><meta name="description" content="MC Hub is a free website with amazing tips, seeds, facts and command guides to help you become a Minecraft PRO in no time!"><link rel="icon" href="https://exf.mchub.ga/logos/favicon.ico" type="image/x-icon"><meta name="viewport" content="width=device-width, initial-scale=1">');
   
