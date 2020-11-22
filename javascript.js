@@ -41,7 +41,4 @@ function setup() {
   
   // Import CSS and other style files
   head.insertAdjacentHTML("beforeend", '<link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/navbar.css"><link rel="stylesheet" href="/css/colours.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap">');
-
-  // Insert AddThis code for share button
-  body.insertAdjacentHTML("beforeend", '<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f99d530b340a42f"></script>');
 }
