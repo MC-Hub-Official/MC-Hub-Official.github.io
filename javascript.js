@@ -19,7 +19,8 @@ customElements.define('mchub-header', MCHubHeader);
 
 function setup() {
   var head = document.head;
-  document.body.style.backgroundImage = bgImages[d.getDay()];
+  var body = document.body;
+  body.style.backgroundImage = bgImages[d.getDay()];
   
   // Insert site metadata
   head.insertAdjacentHTML("beforeend", '<title> MC Hub </title><meta name="description" content="MC Hub is a free website with amazing tips, seeds, facts and command guides to help you become a Minecraft PRO in no time!"><link rel="icon" href="https://exf.mchub.ga/logos/favicon.ico" type="image/x-icon"><meta name="viewport" content="width=device-width, initial-scale=1">');
@@ -29,4 +30,7 @@ function setup() {
   
   // Import CSS and other style files
   head.insertAdjacentHTML("beforeend", '<link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/navbar.css"><link rel="stylesheet" href="/css/colours.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap">');
+
+  // Insert AddThis code for share button
+  body.insertAdjacentHTML("beforeend", '<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f99d530b340a42f"></script>');
 }
