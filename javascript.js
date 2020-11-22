@@ -15,7 +15,7 @@ class MCHubHeader extends HTMLElement {
 class MCHubFooter extends HTMLElement {
   connectedCallback() {
     // Insert MC Hub social links
-    this.insertAdjacentHTML("beforeend", '<div class="addthis_inline_follow_toolbox"></div>');
+    this.insertAdjacentHTML("beforeend", '<div class="addthis_inline_follow_toolbox"></div><br>');
     
     // Insert RSS link
     this.insertAdjacentHTML("beforeend", '<div style="font-size: 24; text-align: center; display: inline;"><a class="orange" style="display: inline;" href="/rss.xml" download> Subscribe to RSS for MC Hub! </a></div><br>');
