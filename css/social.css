@@ -21,3 +21,7 @@
 .fa:hover {
   opacity: 0.7;
 }
+
+.fa-caret-down {
+  font-family: 'FontAwesome';
+}
