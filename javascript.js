@@ -14,11 +14,11 @@ class MCHubHeader extends HTMLElement {
 
 class MCHubFooter extends HTMLElement {
   connectedCallback() {
-    // Insert social share buttons
-    this.insertAdjacentHTML("beforeend", '<a href="https://www.youtube.com/channel/UCP2347E62P5fcoC2eK8QiPg?sub_confirmation=1"><i class="fab fa-youtube"></i></a><a href="/rss.xml" download><i class="fas fa-rss"></i></a>');
+    // Insert MC Hub social links
+     this.insertAdjacentHTML("beforeend", '<hr><a href="https://account.xbox.com/en-gb/profile?gamertag=MCHubSite" class="green" style="float:left; font-size: 28px;">Xbox</a><a href="https://www.youtube.com/channel/UCP2347E62P5fcoC2eK8QiPg?sub_confirmation=1" class="red" style="float:right; font-size: 28px;">YouTube</a><br><br>');
     
     // Insert RSS link
-    this.insertAdjacentHTML("beforeend", '<br><div style="font-size: 24; text-align: center; display: inline;"><a class="orange" style="display: inline;" href="/rss.xml" download> Subscribe to RSS for MC Hub! </a></div><br>');
+    this.insertAdjacentHTML("beforeend", '<div style="font-size: 24; text-align: center; display: inline;"><a class="orange" style="display: inline;" href="/rss.xml" download> Subscribe to RSS for MC Hub! </a></div><br>');
     
     // Insert cookie message
     this.insertAdjacentHTML("beforeend", '<p class="white">This website uses cookies from Google to enable marketing services such as Google Analytics. Your data is completely anonymous. </p>');
