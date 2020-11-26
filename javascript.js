@@ -45,6 +45,7 @@ function setup() {
 
 var bedrockShown = true;
 var javaShown = true;
+var allShown = true;
       
 function showHideBedrock() {
   if (bedrockShown === false) {
@@ -61,4 +62,13 @@ function showHideJava() {
    if (javaShown === true) {
      document.getElementsByClassName('java').style.visibility = 'hidden';
    }
+}
+
+function showHideAll() {
+  if (allShown === false) {
+    document.getElementsByClassName('all').style.visibility = 'visible';
+  }
+  if (allShown === true) {
+    document.getElementByClassName('all').style.visibility = 'visible';
+  }
 }
