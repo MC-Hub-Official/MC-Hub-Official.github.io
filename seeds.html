@@ -1,9 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <script src="javascript.js"></script>
-  <head></head>
+  <head>
+    <script>
+      var bedrockShown = true;
+      var javaShown = true;
+      
+      function bedrock() {
+        if (bedrockShown === false) {
+          document.getElementsByClassName('bedrock').style.visibility = 'visible';
+        }
+        if (bedrockShown === true) {
+          document.getElementsByClassName('bedrock').style.visibility = 'hidden';
+        }
+      }
+      function java() {
+        if (javaShown === false) {
+          document.getElementsByClassName('java').style.visibility = 'visible';
+        }
+        if (javaShown === true) {
+          document.getElementsByClassName('java').style.visibility = 'hidden';
+        }
+      }
+    </script>
+  </head>
   <body onload="setup();">
     <mchub-header></mchub-header>
+    <button onclick="bedrock();"> Bedrock Edition </button>
+    <button onclick="java();"> Java Edition </button>
     <div class="message">
       <h3> MC Hub Seeds </h3>
       <p> Here is a list of some really great Minecraft loot seeds! </p>
