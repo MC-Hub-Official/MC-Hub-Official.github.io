@@ -42,3 +42,23 @@ function setup() {
   // Import CSS and other style files
   head.insertAdjacentHTML("beforeend", '<link rel="stylesheet" href="/css/social.css"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/navbar.css"><link rel="stylesheet" href="/css/colours.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap">');
 }
+
+var bedrockShown = true;
+var javaShown = true;
+      
+function showHideBedrock() {
+  if (bedrockShown === false) {
+    document.getElementsByClassName('bedrock').style.visibility = 'visible';
+  }
+  if (bedrockShown === true) {
+    document.getElementsByClassName('bedrock').style.visibility = 'hidden';
+  }
+}
+function showHideJava() {
+   if (javaShown === false) {
+     document.getElementsByClassName('java').style.visibility = 'visible';
+   }
+   if (javaShown === true) {
+     document.getElementsByClassName('java').style.visibility = 'hidden';
+   }
+}
