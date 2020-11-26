@@ -45,7 +45,6 @@ function setup() {
 
 var bedrockShown = true;
 var javaShown = true;
-var allShown = true;
       
 function showHideBedrock() {
   if (bedrockShown === false) {
