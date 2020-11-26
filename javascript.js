@@ -49,26 +49,17 @@ var allShown = true;
       
 function showHideBedrock() {
   if (bedrockShown === false) {
-    document.getElementsByClassName('bedrock').style.visibility = 'visible';
+    document.querySelectorAll(".bedrock").style.visibility = 'visible';
   }
   if (bedrockShown === true) {
-    document.getElementsByClassName('bedrock').style.visibility = 'hidden';
+    document.querySelectorAll(".bedrock").style.visibility = 'hidden';
   }
 }
 function showHideJava() {
    if (javaShown === false) {
-     document.getElementsByClassName('java').style.visibility = 'visible';
+     document.querySelectorAll(".java").style.visibility = 'visible';
    }
    if (javaShown === true) {
-     document.getElementsByClassName('java').style.visibility = 'hidden';
+     document.querySelectorAll(".java").style.visibility = 'hidden';
    }
-}
-
-function showHideAll() {
-  if (allShown === false) {
-    document.getElementsByClassName('all').style.visibility = 'visible';
-  }
-  if (allShown === true) {
-    document.getElementByClassName('all').style.visibility = 'visible';
-  }
 }
