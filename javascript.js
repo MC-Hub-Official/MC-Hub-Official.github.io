@@ -43,22 +43,35 @@ function setup() {
   head.insertAdjacentHTML("beforeend", '<link rel="stylesheet" href="/css/social.css"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/navbar.css"><link rel="stylesheet" href="/css/colours.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap">');
 }
 
-var bedrockShown = true;
+var i;
+
 var javaShown = true;
-      
+var java = document.querySelectorAll(".java");
+
+var bedrockShown = true;
+var bedrock = document.querySelectorAll(".bedrock");
+
 function showHideBedrock() {
   if (bedrockShown === false) {
-    document.querySelectorAll(".bedrock").style.visibility = 'visible';
+    for (i = 0; i < bedrock.length; i++) {
+      bedrock[i].style.visibility = 'visible';
+    }
   }
   if (bedrockShown === true) {
-    document.querySelectorAll(".bedrock").style.visibility = 'hidden';
+    for (i = 0; i < bedrock.length; i++) {
+      bedrock[i].style.visibility = 'hidden';
+    }
   }
 }
 function showHideJava() {
-   if (javaShown === false) {
-     document.querySelectorAll(".java").style.visibility = 'visible';
-   }
-   if (javaShown === true) {
-     document.querySelectorAll(".java").style.visibility = 'hidden';
-   }
+  if (javaShown === false) {
+    for (i = 0; i < java.length; i++) {
+      java[i].style.visibility = 'visible';
+    }
+  }
+  if (javaShown === true) {
+    for (i = 0; i < java.length; i++) {
+      java[i].style.visibility = 'hidden';
+    }
+  }
 }
