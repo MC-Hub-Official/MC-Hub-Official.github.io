@@ -10,13 +10,13 @@ Anybody may use any part or the whole of of MC Hub's BACKEND code (only JavaScri
   
     You acknowledge at least one of the following:
   
-      Parts of this website are from MC Hub, https://www.mchub.ga
+        Parts of this website are from MC Hub, https://www.mchub.ga
     
-      Parts of this website were created by ninjadev64, https://github.com/ninjadev64
+        Parts of this website were created by ninjadev64, https://github.com/ninjadev64
     
-      Thanks MC Hub for part of this website's code
+        Thanks MC Hub for part of this website's code
     
-      (or something similar)
+        (or something similar)
     
 The creators of MC Hub are free to do as they please with MC Hub's code. They are:
 
