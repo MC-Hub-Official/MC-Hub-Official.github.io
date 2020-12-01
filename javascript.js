@@ -8,7 +8,7 @@ class MCHubHeader extends HTMLElement {
     this.insertAdjacentHTML("beforeend", '<div class="logo"><img src="https://exf.mchub.ga/logos/logo.webp" alt="MC Hub Logo" onerror="this.src = \'https://exf.mchub.ga/logos/logo.png\'" /><br></div>');
     
     // Insert menubar
-    this.insertAdjacentHTML("beforeend", '<div class="navbar"><div class="dropdown"><button class="dropbtn">Menu <i class="fa-caret-down"></i></button><div class="dropdown-content"><a href="/">Hub</a><a href="/tips">Tips</a><a href="/seeds">Seeds</a><a href="/facts">Facts</a><a href="/commands">Commands</a><a href="/search"> Search </a></div></div></div><br><br><br>');
+    this.insertAdjacentHTML("beforeend", '<div class="navbar"><div class="dropdown"><button class="dropbtn">Menu</button><div class="dropdown-content"><a href="/">Hub</a><a href="/tips">Tips</a><a href="/seeds">Seeds</a><a href="/facts">Facts</a><a href="/commands">Commands</a><a href="/search"> Search </a></div></div></div><br><br><br>');
   }
 }
 
