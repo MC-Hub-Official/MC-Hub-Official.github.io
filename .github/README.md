@@ -4,8 +4,7 @@ MC Hub is a free website with amazing tips, seeds, facts and command guides to h
 # Credits
 
 • ninja64 (GitHub: ninjadev64)
----
+
 • Blaaze (GitHub: HBBX11)
----
+
 • Krypto (GitHub: KryptoYT)
----
