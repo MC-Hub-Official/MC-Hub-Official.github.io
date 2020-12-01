@@ -14,7 +14,7 @@ Anybody may use any part or the whole of of MC Hub's BACKEND code (only JavaScri
     
       • Thanks MC Hub for part of this website's code
       
---
+---
     
 The creators of MC Hub are free to do as they please with MC Hub's code. They are:
 
@@ -24,7 +24,7 @@ The creators of MC Hub are free to do as they please with MC Hub's code. They ar
   
   • Krypto (https://github.com/KryptoYT)
   
---
+---
   
 The websites that currently use code from MC Hub are:
 
