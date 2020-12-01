@@ -3,8 +3,12 @@ MC Hub is a free website with amazing tips, seeds, facts and command guides to h
 
 # Credits
 
-• ninja64 (GitHub: ninjadev64)
+• [ninja64](https://github.com/ninjadev64)
 
-• Blaaze (GitHub: HBBX11)
+• [Blaaze](https://github.com/HBBX11)
 
-• Krypto (GitHub: KryptoYT)
+• [Krypto](https://github.com/KryptoYT)
+
+# License
+
+Please read the MC Hub code license at [.github/LICENSE.md](https://github.com/MC-Hub-Official/MC-Hub/blob/master/.github/LICENSE.md)
