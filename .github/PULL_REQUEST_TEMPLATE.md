@@ -1,8 +1,7 @@
-# MC Hub Pull Request Template
+Description of changes:
+  Describe your changes here, and make sure to tick the below boxes
 
-Please only use pull requests to propose changes to incorrect information or invalid content. To suggest new content, please use the given form links on our homepage.
-
-- [ ] I have made sure my changes comply with the statement above
+- [ ] I have made sure my changes are an edit or removal of existing content, not an addition
 - [ ] I have made sure my changes are relevant
 - [ ] I have made sure my changes are factually correct
 - [ ] I have made sure my content does not contain any 5+ content
