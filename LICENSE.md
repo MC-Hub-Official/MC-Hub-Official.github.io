@@ -4,17 +4,17 @@ Anybody may use any part or the whole of of MC Hub's BACKEND code (only JavaScri
 
     You do NOT use the actual content (text content, imagery, etc.)
   
-    You notify us via an issue in this repository that you have used our template
+    You notify us via an issue in this repository that you have used our code
   
     You host the website that you are going to use MC Hub's code on on GitHub, in a PUBLIC repository
   
     You acknowledge at least one of the following:
   
-      Parts of this website's template are from MC Hub, https://www.mchub.ga
+      Parts of this website are from MC Hub, https://www.mchub.ga
     
-      Parts of this website's template were created by ninjadev64, https://github.com/ninjadev64
+      Parts of this website were created by ninjadev64, https://github.com/ninjadev64
     
-      Thanks MC Hub for this website's template
+      Thanks MC Hub for part of this website's code
     
       (or something similar)
     
