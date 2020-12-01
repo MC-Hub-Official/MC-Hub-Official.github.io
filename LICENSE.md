@@ -8,7 +8,7 @@ Anybody may use any part or the whole of of MC Hub's BACKEND code (only JavaScri
   
     You host the website that you are going to use MC Hub's code on on GitHub, in a PUBLIC repository
   
-    You acknowledge at least one of the following:
+    You display at least one of the following on your homepage:
   
         Parts of this website are from MC Hub, https://www.mchub.ga
     
