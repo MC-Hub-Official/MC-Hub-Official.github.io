@@ -1,1 +1,34 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <script src="javascript.js"></script>
+  <head></head>
+  <body onload="setup();">
+    <mchub-header></mchub-header>
+    <div class="message">
+      <h3> MC Hub Seeds </h3>
+      <p> Here is a list of some really great Minecraft loot seeds! </p>
+      <p> They are mostly for Bedrock Edition, but you will find some for Java Edition too. </p>
+      <p> At the bottom of the page, you will find Structure and Biome seeds, a collection of seeds that spawn you very close to the mentioned generated structure or biome. </p>
+      <p> We have linked to the website where we have obtained the seeds, where applicable. </p>
+      <p> Note: We will make some more Java seeds soon, we haven't got too many at the moment.</p>
+    </div>
+    <br>
+    <div class="section bedrock">
+      <h3> 2048971879 </h3>
+      <p> A mineshaft, a stronghold WITH A PORTAL! </p>
+      <p> 4 ravines, 3 villages! </p>
+      <p> A desert temple, a pillager outpost! </p>
+      <p> A ruined portal! </p>
+      <a href="https://www.windowscentral.com/top-minecraft-seeds-you-have-try#five"> Thanks so much Windows Central for this seed! </a>
+      <p> For Bedrock Edition. </p>
+    </div>
+    <br>
+    <div class='section java'>
+      <h3>95148563599334434</h3>
+      <p> A stronghold with a COMPLETED END PORTAL at 450, 30, -2260. </p>
+      <a href="https://www.youtube.com/watch?v=grihcxzdcVo&t=305s">Thanks ibxtoycat for this seed. </a>
+      <p> For Java Edition. </p>
+    </div>
+    <br>
+    <mchub-footer></mchub-footer>
+  </body>
