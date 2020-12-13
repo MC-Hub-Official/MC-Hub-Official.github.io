@@ -40,41 +40,8 @@ function setup() {
   head.insertAdjacentHTML("beforeend", '<script src="https://kit.fontawesome.com/1e53eeabd1.js" crossorigin="anonymous"></script><script src="https://www.googleoptimize.com/optimize.js?id=OPT-TNV37V3"></script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-179487034-1"></script><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-179487034-1");</script>');
   
   // Import CSS and other style files
-  head.insertAdjacentHTML("beforeend", '<link rel="stylesheet" href="/css/social.css"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/navbar.css"><link rel="stylesheet" href="/css/colours.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap">');
+  head.insertAdjacentHTML("beforeend", '<link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/navbar.css"><link rel="stylesheet" href="/css/colours.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap">');
   
   // Insert Firebase scripts
   body.insertAdjacentHTML("beforeend", '<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script><script> var firebaseConfig = { apiKey: "AIzaSyCJrzuFHQTTjQqs1nYqvSvT9pRWYkl3BKc", authDomain: "mc-hub-gc.firebaseapp.com", projectId: "mc-hub-gc", storageBucket: "mc-hub-gc.appspot.com", messagingSenderId: "511189266377", appId: "1:511189266377:web:1bf960a1eb8e98aceb8218" }; firebase.initializeApp(firebaseConfig); </script>');
-}
-
-var i;
-
-var javaShown = true;
-var java = document.querySelectorAll(".java");
-
-var bedrockShown = true;
-var bedrock = document.querySelectorAll(".bedrock");
-
-function showHideBedrock() {
-  if (bedrockShown === false) {
-    for (i = 0; i < bedrock.length; i++) {
-      bedrock[i].style.visibility = 'visible';
-    }
-  }
-  if (bedrockShown === true) {
-    for (i = 0; i < bedrock.length; i++) {
-      bedrock[i].style.visibility = 'hidden';
-    }
-  }
-}
-function showHideJava() {
-  if (javaShown === false) {
-    for (i = 0; i < java.length; i++) {
-      java[i].style.visibility = 'visible';
-    }
-  }
-  if (javaShown === true) {
-    for (i = 0; i < java.length; i++) {
-      java[i].style.visibility = 'hidden';
-    }
-  }
 }
