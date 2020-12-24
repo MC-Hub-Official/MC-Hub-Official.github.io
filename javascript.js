@@ -5,7 +5,7 @@ var bgImages = ["url(https://exf.minecraft-hub.com/backgrounds/0.webp)", "url(ht
 class MCHubHeader extends HTMLElement {
   connectedCallback() {
     // Insert logo
-    this.insertAdjacentHTML("beforeend", '<div class="logo"><img src="https://exf.minecraft-hub.com/logos/logo.webp" alt="MC Hub Logo" onerror="this.src = \'https://exf.minecraft-hub.com/logos/logo.png\'" href="/"/><br /></div>');
+    this.insertAdjacentHTML("beforeend", '<div class="logo"><a href="/"><img src="https://exf.minecraft-hub.com/logos/logo.webp" alt="MC Hub Logo" onerror="this.src = \'https://exf.minecraft-hub.com/logos/logo.png\'"/></a><br /></div>');
     
     // Insert menubar
     this.insertAdjacentHTML("beforeend", '<div class="navbar"><div class="dropdown"><button class="dropbtn">Menu</button><div class="dropdown-content"><a href="/">Hub</a><a href="/tips">Tips</a><a href="/seeds">Seeds</a><a href="/facts">Facts</a><a href="/commands">Commands</a><a href="/search"> Search </a></div></div></div><br /><br /><br />');
