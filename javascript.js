@@ -5,20 +5,20 @@ var bgImages = ["url(https://exf.minecraft-hub.com/backgrounds/0.webp)", "url(ht
 class MCHubHeader extends HTMLElement {
   connectedCallback() {
     // Insert logo
-    this.insertAdjacentHTML("beforeend", '<div class="logo"><img src="https://exf.minecraft-hub.com/logos/logo.webp" alt="MC Hub Logo" onerror="this.src = \'https://exf.mchub.ga/logos/logo.png\'" /><br></div>');
+    this.insertAdjacentHTML("beforeend", '<div class="logo"><img src="https://exf.minecraft-hub.com/logos/logo.webp" alt="MC Hub Logo" onerror="this.src = \'https://exf.minecraft-hub.com/logos/logo.png\'" href="/"/><br /></div>');
     
     // Insert menubar
-    this.insertAdjacentHTML("beforeend", '<div class="navbar"><div class="dropdown"><button class="dropbtn">Menu</button><div class="dropdown-content"><a href="/">Hub</a><a href="/tips">Tips</a><a href="/seeds">Seeds</a><a href="/facts">Facts</a><a href="/commands">Commands</a><a href="/search"> Search </a></div></div></div><br><br><br>');
+    this.insertAdjacentHTML("beforeend", '<div class="navbar"><div class="dropdown"><button class="dropbtn">Menu</button><div class="dropdown-content"><a href="/">Hub</a><a href="/tips">Tips</a><a href="/seeds">Seeds</a><a href="/facts">Facts</a><a href="/commands">Commands</a><a href="/search"> Search </a></div></div></div><br /><br /><br />');
   }
 }
 
 class MCHubFooter extends HTMLElement {
   connectedCallback() {
     // Insert MC Hub social links
-    this.insertAdjacentHTML("beforeend", '<hr><a href="https://account.xbox.com/en-gb/profile?gamertag=MCHubSite" class="green" style="float:left; font-size: 28px;">Xbox</a><a href="https://www.youtube.com/channel/UCP2347E62P5fcoC2eK8QiPg?sub_confirmation=1" class="red" style="float:right; font-size: 28px;">YouTube</a><br><br>');
+    this.insertAdjacentHTML("beforeend", '<hr><a href="https://account.xbox.com/en-gb/profile?gamertag=MCHubSite" class="green" style="float:left; font-size: 28px;">Xbox</a><a href="https://www.youtube.com/channel/UCP2347E62P5fcoC2eK8QiPg?sub_confirmation=1" class="red" style="float:right; font-size: 28px;">YouTube</a><br /><br />');
     
     // Insert RSS link
-    this.insertAdjacentHTML("beforeend", '<div style="font-size: 24; text-align: center; display: inline;"><a class="orange" style="display: inline;" href="/rss.xml" download> Subscribe to RSS for MC Hub! </a></div><br>');
+    this.insertAdjacentHTML("beforeend", '<div style="font-size: 24; text-align: center; display: inline;"><a class="orange" style="display: inline;" href="/rss.xml" download> Subscribe to RSS for MC Hub! </a></div><br />');
     
     // Insert cookie message
     this.insertAdjacentHTML("beforeend", '<p class="white">This website uses cookies from Google to enable marketing services such as Google Analytics. Your data is completely anonymous. </p>');
