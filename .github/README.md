@@ -3,7 +3,7 @@ MC Hub is a free website with amazing tips, seeds, facts and command guides to h
 
 # Credits
 
-• [ninja64](https://github.com/ninjadev64)
+• [ninjadev64](https://github.com/ninjadev64)
 
 • [Blaaze](https://github.com/HBBX11)
 
