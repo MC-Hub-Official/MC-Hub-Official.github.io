@@ -21,7 +21,10 @@ class MCHubFooter extends HTMLElement {
     this.insertAdjacentHTML("beforeend", '<div style="font-size: 24; text-align: center; display: inline;"><a class="orange" style="display: inline;" href="/rss.xml" download> Subscribe to RSS for MC Hub! </a></div><br />');
     
     // Insert cookie message
-    this.insertAdjacentHTML("beforeend", '<p class="white">This website uses cookies from Google to enable marketing services such as Google Analytics. Your data is completely anonymous. </p>');
+    this.insertAdjacentHTML("beforeend", '<p class="white"> This website uses cookies from Google to enable marketing services such as Google Analytics. Your data is completely anonymous. </p>');
+    
+    // Insert copyright message and credits link
+    this.insertAdjacentHTML("beforeend", '<p class="white"> © 2020-2021 MC Hub Official - unless specified <a href="/credits">here</a>.</p>
   }
 }
 
