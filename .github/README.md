@@ -9,6 +9,8 @@ MC Hub is a free website with amazing tips, seeds, facts and command guides to h
 
 • [Krypto](https://github.com/KryptoYT)
 
+[Additional credits on our Credits page](https://minecraft-hub.com/credits)
+
 # License
 
 Please read the MC Hub code license at [.github/LICENSE.md](https://github.com/MC-Hub-Official/MC-Hub/blob/master/.github/LICENSE.md)
