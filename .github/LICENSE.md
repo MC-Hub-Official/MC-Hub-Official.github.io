@@ -10,7 +10,7 @@ Anybody may use any part or the whole of of MC Hub's BACKEND code (only JavaScri
   
   • You display something similar to the below messages on your homepage:
   
-      • Parts of this website are from MC Hub, https://www.mchub.ga
+      • Parts of this website are from MC Hub, https://minecraft-hub.com
     
       • Thanks MC Hub for part of this website's code
       
