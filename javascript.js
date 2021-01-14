@@ -37,7 +37,7 @@ function setup() {
   body.style.backgroundImage = bgImages[d.getDay()];
   
   // Insert site metadata
-  head.insertAdjacentHTML("beforeend", '<title> MC Hub </title><meta name="description" content="MC Hub is a free website with amazing tips, seeds, facts and command guides to help you become a Minecraft PRO in no time!"><link rel="icon" href="https://exf.minecraft-hub.com/logos/favicon.ico" type="image/x-icon"><meta name="viewport" content="width=device-width, initial-scale=1">');
+  head.insertAdjacentHTML("beforeend", '<title> MC Hub </title><meta charset="UTF-8"><meta name="description" content="MC Hub is a free website with amazing tips, seeds, facts and command guides to help you become a Minecraft PRO in no time!"><link rel="icon" href="https://exf.minecraft-hub.com/logos/favicon.ico" type="image/x-icon"><meta name="viewport" content="width=device-width, initial-scale=1">');
   
   // Load (and run) external scripts
   head.insertAdjacentHTML("beforeend", '<script src="https://kit.fontawesome.com/1e53eeabd1.js" crossorigin="anonymous"></script><script src="https://www.googleoptimize.com/optimize.js?id=OPT-TNV37V3"></script>');
