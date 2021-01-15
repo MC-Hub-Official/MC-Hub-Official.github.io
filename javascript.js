@@ -46,5 +46,5 @@ function setup() {
   head.insertAdjacentHTML("beforeend", '<link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/navbar.css"><link rel="stylesheet" href="/css/colours.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap">');
   
   // Insert Firebase scripts
-  body.insertAdjacentHTML("beforeend", '<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script><script> var firebaseConfig = { apiKey: "AIzaSyCJrzuFHQTTjQqs1nYqvSvT9pRWYkl3BKc", authDomain: "mc-hub-gc.firebaseapp.com", projectId: "mc-hub-gc", storageBucket: "mc-hub-gc.appspot.com", messagingSenderId: "511189266377", appId: "1:511189266377:web:1bf960a1eb8e98aceb8218" }; firebase.initializeApp(firebaseConfig); </script>');
+  body.insertAdjacentHTML("beforeend", '<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script><script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-analytics.js"></script><script> var firebaseConfig = { apiKey: "AIzaSyCJrzuFHQTTjQqs1nYqvSvT9pRWYkl3BKc", authDomain: "mc-hub-gc.firebaseapp.com", projectId: "mc-hub-gc", storageBucket: "mc-hub-gc.appspot.com", messagingSenderId: "511189266377", appId: "1:511189266377:web:1bf960a1eb8e98aceb8218", measurementId: "G-4VSVC65DWD" }; firebase.initializeApp(firebaseConfig); firebase.analytics(); </script>');
 }
