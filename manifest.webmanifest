@@ -32,28 +32,28 @@
       "name": "Tips",
       "short_name": "Tips",
       "description": "MC Hub Tips",
-      "url": "/",
+      "url": "/tips",
       "icons": [{ "src": "https://exf.minecraft-hub.com/logos/icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "Seeds",
       "short_name": "Seeds",
       "description": "MC Hub Seeds",
-      "url": "/",
+      "url": "/seeds",
       "icons": [{ "src": "https://exf.minecraft-hub.com/logos/icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "Facts",
       "short_name": "Facts",
       "description": "MC Hub Facts",
-      "url": "/",
+      "url": "/facts",
       "icons": [{ "src": "https://exf.minecraft-hub.com/logos/icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "Commands",
       "short_name": "Commands",
       "description": "MC Hub Commands",
-      "url": "/",
+      "url": "/commands",
       "icons": [{ "src": "https://exf.minecraft-hub.com/logos/icon-192.png", "sizes": "192x192" }]
     }
   ]
