@@ -11,7 +11,8 @@
     {
       "src": "https://exf.minecraft-hub.com/logos/icon-512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": "/",
@@ -21,9 +22,37 @@
   "theme_color": "#0174DF",
   "shortcuts": [
     {
-      "name": "MC Hub",
-      "short_name": "MC Hub",
-      "description": "MC Hub is a free website with amazing tips, seeds, facts and command guides to help you become a Minecraft PRO in no time!",
+      "name": "Hub",
+      "short_name": "Hub",
+      "description": "MC Hub",
+      "url": "/",
+      "icons": [{ "src": "https://exf.minecraft-hub.com/logos/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Tips",
+      "short_name": "Tips",
+      "description": "MC Hub Tips",
+      "url": "/",
+      "icons": [{ "src": "https://exf.minecraft-hub.com/logos/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Seeds",
+      "short_name": "Seeds",
+      "description": "MC Hub Seeds",
+      "url": "/",
+      "icons": [{ "src": "https://exf.minecraft-hub.com/logos/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Facts",
+      "short_name": "Facts",
+      "description": "MC Hub Facts",
+      "url": "/",
+      "icons": [{ "src": "https://exf.minecraft-hub.com/logos/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Commands",
+      "short_name": "Commands",
+      "description": "MC Hub Commands",
       "url": "/",
       "icons": [{ "src": "https://exf.minecraft-hub.com/logos/icon-192.png", "sizes": "192x192" }]
     }
