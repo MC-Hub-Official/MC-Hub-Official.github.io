@@ -1,0 +1,31 @@
+{
+  "short_name": "MC Hub",
+  "name": "MC Hub",
+  "description": "MC Hub is a free website with amazing tips, seeds, facts and command guides to help you become a Minecraft PRO in no time!",
+  "icons": [
+    {
+      "src": "https://exf.minecraft-hub.com/logos/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://exf.minecraft-hub.com/logos/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0174DF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#31B404",
+  "shortcuts": [
+    {
+      "name": "MC Hub",
+      "short_name": "MC Hub",
+      "description": "MC Hub is a free website with amazing tips, seeds, facts and command guides to help you become a Minecraft PRO in no time!",
+      "url": "/",
+      "icons": [{ "src": "https://exf.minecraft-hub.com/logos/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
