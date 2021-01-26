@@ -24,7 +24,7 @@ class MCHubFooter extends HTMLElement {
     this.insertAdjacentHTML("beforeend", '<p class="white"> This website uses cookies from Google to enable marketing services such as Google Analytics. Your data is completely anonymous. </p>');
     
     // Insert copyright message and credits link
-    this.insertAdjacentHTML("beforeend", '<p class="white"> © 2020-2021<a class="green" href="https://github.com/MC-Hub-Official"> MC Hub Official </a>- unless specified <a class="green" href="/credits">here</a>.</p>');
+    this.insertAdjacentHTML("beforeend", '<p class="white"> © 2020-2021<a class="orange" href="https://github.com/MC-Hub-Official"> MC Hub Official </a>- unless specified on our <a class="orange" href="/credits">Credits page</a>.</p>');
   }
 }
 
