@@ -48,8 +48,3 @@ function setup() {
   // Insert Firebase scripts
   body.insertAdjacentHTML("beforeend", '<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script><script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-analytics.js"></script><script> var firebaseConfig = { apiKey: "AIzaSyCJrzuFHQTTjQqs1nYqvSvT9pRWYkl3BKc", authDomain: "mc-hub-gc.firebaseapp.com", projectId: "mc-hub-gc", storageBucket: "mc-hub-gc.appspot.com", messagingSenderId: "511189266377", appId: "1:511189266377:web:1bf960a1eb8e98aceb8218", measurementId: "G-4VSVC65DWD" }; firebase.initializeApp(firebaseConfig); firebase.analytics(); </script>');
 }
-
-// Offline service worker
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js');
-}
