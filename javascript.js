@@ -31,6 +31,14 @@ class MCHubFooter extends HTMLElement {
 customElements.define('mchub-footer', MCHubFooter);
 customElements.define('mchub-header', MCHubHeader);
 
+function pwaStuff() {
+  document.head.insertAdjacentHTML("beforeend", '<meta name="theme-color" content="#0174DF"/><link rel="apple-touch-icon" href="https://exf.minecraft-hub.com/logos/icon-192.png"><link rel="manifest" href="/manifest.webmanifest">');
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.prompt();
+  });
+}
+
 function setup() {
   var head = document.head;
   var body = document.body;
@@ -47,12 +55,6 @@ function setup() {
   
   // Insert Firebase scripts
   body.insertAdjacentHTML("beforeend", '<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script><script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-analytics.js"></script><script> var firebaseConfig = { apiKey: "AIzaSyCJrzuFHQTTjQqs1nYqvSvT9pRWYkl3BKc", authDomain: "mc-hub-gc.firebaseapp.com", projectId: "mc-hub-gc", storageBucket: "mc-hub-gc.appspot.com", messagingSenderId: "511189266377", appId: "1:511189266377:web:1bf960a1eb8e98aceb8218", measurementId: "G-4VSVC65DWD" }; firebase.initializeApp(firebaseConfig); firebase.analytics(); </script>');
-}
-
-function pwaStuff() {
-  document.head.insertAdjacentHTML("beforeend", '<meta name="theme-color" content="#0174DF"/><link rel="apple-touch-icon" href="https://exf.minecraft-hub.com/logos/icon-192.png"><link rel="manifest" href="/manifest.webmanifest">');
-
-  window.addEventListener('beforeinstallprompt', (e) => {
-    e.prompt();
-  });
+  
+  pwaStuff();
 }
