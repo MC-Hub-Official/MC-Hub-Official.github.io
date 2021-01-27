@@ -17,22 +17,15 @@
     <div class="message">
       <p> We spend a lot of time working on MC Hub. </p>
       <p> We would love it if you could spend a couple of minutes on the links below to help improve this site! </p>
-      <ul id="linkList">
+      <ul>
         <li><p><a class="green" href="https://forms.gle/41mjDh2VYWE7qkwK6"> Suggest a tip </a><br /></p></li>
         <li><p><a class="blue" href="https://forms.gle/UqGA2iUhmc62s6cf6"> Suggest a seed </a><br /></p></li>
         <li><p><a class="purple" href="https://forms.gle/FpZYEubebaSzcZVx6"> Suggest a fact </a><br /></p></li>
         <li><p><a class="red" href="https://bit.ly/mc-hub-yt"> Subscribe to our YouTube channel </a></p></li>
+        <li id="installLink"><p><a class="orange" onclick="deferredPrompt.prompt();"> Install our web app! </a></p></li>
       </ul>
     </div>
-    <script>
-      if(deferredPrompt != undefined){
-        var installLink = document.createElement("A");
-        installLink.innerHTML = "Install our web app!";
-        installLink.onclick = "deferredPrompt.prompt();";
-        installLink.classList.add("orange");
-        document.getElementByID("linkList").appendChild(document.createElement("LI").appendChild(document.createElement("P").appendChild(installLink)));
-      }
-    </script>
+    <script> if(deferredPrompt === undefined){ document.getElementByID("installLink").style.visibility = "hidden"; } </script>
     <br />
     <div class="message">
       <h3> Navigate! </h3>
