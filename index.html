@@ -6,7 +6,7 @@
       navigator.serviceWorker.register('service-worker.js');
     }
     function deferredPromptError(link) {
-      const relatedApps = await navigator.getInstalledRelatedApps();
+      const relatedApps = navigator.getInstalledRelatedApps();
       link.style.fontWeight = "bold";
       link.classList.remove("orange");
       link.classList.add("red");
