@@ -22,7 +22,7 @@
         <li><p><a class="blue" href="https://forms.gle/UqGA2iUhmc62s6cf6"> Suggest a seed </a><br /></p></li>
         <li><p><a class="purple" href="https://forms.gle/FpZYEubebaSzcZVx6"> Suggest a fact </a><br /></p></li>
         <li><p><a class="red" href="https://bit.ly/mc-hub-yt"> Subscribe to our YouTube channel </a></p></li>
-        <li id="installLink"><p><a class="orange" onclick="deferredPrompt.prompt();"> Install our web app! </a></p></li>
+        <li><p><a class="orange" onclick="if(deferredPrompt != undefined) { deferredPrompt.prompt(); }"> Install our web app! </a></p></li>
       </ul>
     </div>
     <br />
@@ -40,5 +40,4 @@
     <!-- MC Hub is created and maintained by ninja64, Blaze, and Krypto (real identities unavailable). Further information and more credits available on our credits page. -->
     <mchub-footer></mchub-footer>
   </body>
-  <script> console.log(deferredPrompt); if(deferredPrompt === undefined){ document.getElementById("installLink").style.visibility = "hidden"; } </script>
 </html>
