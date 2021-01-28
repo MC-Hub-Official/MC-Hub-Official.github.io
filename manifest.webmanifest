@@ -22,13 +22,6 @@
   "theme_color": "#0174DF",
   "shortcuts": [
     {
-      "name": "Hub",
-      "short_name": "Hub",
-      "description": "MC Hub",
-      "url": "/",
-      "icons": [{ "src": "https://exf.minecraft-hub.com/logos/icon-192.png", "sizes": "192x192" }]
-    },
-    {
       "name": "Tips",
       "short_name": "Tips",
       "description": "MC Hub Tips",
@@ -54,6 +47,13 @@
       "short_name": "Commands",
       "description": "MC Hub Commands",
       "url": "/commands",
+      "icons": [{ "src": "https://exf.minecraft-hub.com/logos/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Videos",
+      "short_name": "Videos",
+      "description": "MC Hub's YouTube Channel",
+      "url": "https://bit.ly/mc-hub-yt",
       "icons": [{ "src": "https://exf.minecraft-hub.com/logos/icon-192.png", "sizes": "192x192" }]
     }
   ]
