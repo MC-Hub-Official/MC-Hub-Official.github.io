@@ -9,7 +9,7 @@
       link.style.fontWeight = "bold";
       link.classList.remove("orange");
       link.classList.add("red");
-      link.innerText = "Sorry, your browser is too old to support Progressive Web Apps or you need to exit Incognito / Guest mode.";
+      link.innerText = "Sorry, your browser does not support Progressive Web Apps or you need to exit Incognito / Guest mode.";
       const relatedApps = navigator.getInstalledRelatedApps();
       relatedApps.forEach((app) => {
         link.classList.remove("red");
