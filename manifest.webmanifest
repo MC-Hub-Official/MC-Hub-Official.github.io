@@ -20,6 +20,10 @@
   "display": "minimal-ui",
   "scope": "/",
   "theme_color": "#0174DF",
+  "related_applications": [{
+    "platform": "webapp",
+    "url": "https://minecraft-hub.com/manifest.webmanifest",
+  }],
   "shortcuts": [
     {
       "name": "Tips",
