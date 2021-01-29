@@ -5,6 +5,7 @@ module.exports = {
     },
     upload: {
       target: 'temporary-public-storage',
+      url: ['http://localhost:8080']
     },
   },
 };
