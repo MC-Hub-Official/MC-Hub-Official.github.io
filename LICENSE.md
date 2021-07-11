@@ -30,4 +30,4 @@ The websites that currently use code from MC Hub are:
 
   • https://www.amansprojects.com : a personal site for ninjadev64
   
-  • https://ekoplanett.amansprojects.com : a site maintained by EkoKit24 and ninjadev64 about the environment
+  • https://ekoplanett.tk : a site maintained by EkoKit24 and ninjadev64 about the environment
