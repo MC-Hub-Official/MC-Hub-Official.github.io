@@ -1,23 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <script src="javascript.js"></script>
-  <head><title> MC Hub </title><script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js');
-    }
-    function deferredPromptError(link) {
-      link.style.fontWeight = "bold";
-      link.classList.remove("orange");
-      link.classList.add("red");
-      link.innerText = "Sorry, your browser does not support Progressive Web Apps or you need to exit Incognito / Guest mode.";
-      const relatedApps = navigator.getInstalledRelatedApps();
-      relatedApps.forEach((app) => {
-        link.classList.remove("red");
-        link.classList.add("green");
-        link.innerText = "You have already installed our web app. Thanks!";
-      });
-    }
-  </script></head>
+  <head><title> MC Hub </title></head>
   <body onload="setup();">
     <mchub-header></mchub-header>
     <div class="message">
@@ -34,7 +18,6 @@
         <li><p><a class="blue" href="https://forms.gle/UqGA2iUhmc62s6cf6"> Suggest a seed </a><br /></p></li>
         <li><p><a class="purple" href="https://forms.gle/FpZYEubebaSzcZVx6"> Suggest a fact </a><br /></p></li>
         <li><p><a class="red" href="https://bit.ly/mc-hub-yt"> Subscribe to our YouTube channel </a></p></li>
-        <li><p><a class="orange" onclick="if(deferredPrompt != undefined) { deferredPrompt.prompt(); } else { deferredPromptError(this); }"> Install our web app! </a></p></li>
       </ul>
     </div>
     <br />
