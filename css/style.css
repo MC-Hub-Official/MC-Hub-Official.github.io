@@ -23,6 +23,11 @@ body {
   border: 3px solid #DF7401;
   padding: 10px;
 }
+
+.image {
+  max-width:100%;
+  height: auto;
+}
   
 a {
   text-decoration: none;
