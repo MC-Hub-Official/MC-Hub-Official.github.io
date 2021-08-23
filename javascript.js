@@ -18,8 +18,8 @@ class MCHubFooter extends HTMLElement {
     // Insert MC Hub social links
     this.insertAdjacentHTML("beforeend", '<hr><a href="https://account.xbox.com/en-gb/profile?gamertag=MCHubSite" class="green" style="float:left; font-size: 28px;">Xbox</a><a href="https://bit.ly/mc-hub-yt" class="red" style="float:right; font-size: 28px;">YouTube</a><br /><br />');
     
-    // Insert RSS link
-    this.insertAdjacentHTML("beforeend", '<div style="font-size: 24; text-align: center; display: inline;"><a class="orange" style="display: inline;" href="/rss.xml" download> Subscribe to RSS for MC Hub! </a></div><br />');
+    // Insert RSS link and GitHub buttons
+    this.insertAdjacentHTML("beforeend", '<div style="font-size: 24; text-align: center; display: inline;"><a class="orange" style="display: inline;" href="/rss.xml" download> Subscribe to RSS for MC Hub! </a></div><a class="github-button" href="https://github.com/MC-Hub-Official/MC-Hub/subscription" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-eye" data-size="large" aria-label="Watch MC-Hub-Official/MC-Hub on GitHub">Watch</a><a class="github-button" href="https://github.com/MC-Hub-Official/MC-Hub" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-star" data-size="large" aria-label="Star MC-Hub-Official/MC-Hub on GitHub">Star</a><br />');
     
     // Insert cookie message
     this.insertAdjacentHTML("beforeend", '<p class="white"> This website uses cookies from Google to enable marketing services such as Google Analytics. Your data is completely anonymous. </p>');
@@ -41,7 +41,7 @@ function setup() {
   head.insertAdjacentHTML("beforeend", '<meta charset="UTF-8"><meta name="description" content="MC Hub is a free website with amazing tips, seeds, facts and command guides to help you become a Minecraft PRO in no time!"><link rel="icon" href="https://exf.minecraft-hub.com/logos/favicon.ico" type="image/x-icon"></script><meta name="viewport" content="width=device-width, initial-scale=1">');
   
   // Load (and run) external scripts
-  head.insertAdjacentHTML("beforeend", '<script src="https://kit.fontawesome.com/1e53eeabd1.js" crossorigin="anonymous"></script><script src="https://www.googleoptimize.com/optimize.js?id=OPT-TNV37V3"></script>');
+  head.insertAdjacentHTML("beforeend", '<script src="https://kit.fontawesome.com/1e53eeabd1.js" crossorigin="anonymous"></script><script src="https://www.googleoptimize.com/optimize.js?id=OPT-TNV37V3"></script><script async defer src="https://buttons.github.io/buttons.js"></script>');
   
   // Import CSS and other style files
   head.insertAdjacentHTML("beforeend", '<link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/navbar.css"><link rel="stylesheet" href="/css/colours.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap">');
