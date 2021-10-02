@@ -28,6 +28,6 @@ The creators of MC Hub are free to do as they please with MC Hub's code. They ar
   
 The websites that currently use code from MC Hub are:
 
-  • https://www.amansprojects.com : a personal site for ninjadev64
+  • https://amansprojects.com : a personal site for ninjadev64
   
   • https://ekoplanett.tk : a site maintained by EkoKit24 and ninjadev64 about the environment
