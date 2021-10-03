@@ -1,10 +1,10 @@
 var d = new Date();
-var bgImages = ["url(https://exf.minecraft-hub.com/backgrounds/0.webp)", "url(https://exf.minecraft-hub.com/backgrounds/1.webp)", "url(https://exf.minecraft-hub.com/backgrounds/2.webp)", "url(https://exf.minecraft-hub.com/backgrounds/3.webp)", "url(https://exf.minecraft-hub.com/backgrounds/4.webp)", "url(https://exf.minecraft-hub.com/backgrounds/5.webp)", "url(https://exf.minecraft-hub.com/backgrounds/6.webp)"];
+var bgImages = ["url(/images/backgrounds/0.webp)", "url(/images/backgrounds/1.webp)", "url(/images/backgrounds/2.webp)", "url(/images/backgrounds/3.webp)", "url(/images/backgrounds/4.webp)", "url(/images/backgrounds/5.webp)", "url(/images/backgrounds/6.webp)"];
 
 class MCHubHeader extends HTMLElement {
   connectedCallback() {
     // Insert logo
-    this.insertAdjacentHTML("beforeend", '<div class="logo"><a href="/"><img src="https://exf.minecraft-hub.com/logos/logo.webp" alt="MC Hub Logo" onerror="this.src = \'https://exf.minecraft-hub.com/logos/logo.png\'"/></a><br /></div>');
+    this.insertAdjacentHTML("beforeend", '<div class="logo"><a href="/"><img src="/images/logos/logo.webp" alt="MC Hub Logo" onerror="this.src = \'/images/logos/logo.png\'"/></a><br /></div>');
     
     // Insert menubar
     this.insertAdjacentHTML("beforeend", '<div class="navbar"><div class="dropdown"><button class="dropbtn">Menu</button><div class="dropdown-content"><a href="/">Hub</a><a href="/tips">Tips</a><a href="/seeds">Seeds</a><a href="/facts">Facts</a><a href="/commands">Commands</a><a href="/search"> Search </a></div></div></div><br /><br /><br />');
@@ -42,7 +42,7 @@ function setup() {
   body.style.backgroundImage = bgImages[d.getDay()];
   
   // Insert site metadata
-  head.insertAdjacentHTML("beforeend", '<meta charset="UTF-8"><meta name="description" content="MC Hub is a free website with amazing tips, seeds, facts and command guides to help you become a Minecraft PRO in no time!"><link rel="icon" href="https://exf.minecraft-hub.com/logos/favicon.ico" type="image/x-icon"></script><meta name="viewport" content="width=device-width, initial-scale=1">');
+  head.insertAdjacentHTML("beforeend", '<meta charset="UTF-8"><meta name="description" content="MC Hub is a free website with amazing tips, seeds, facts and command guides to help you become a Minecraft PRO in no time!"><link rel="icon" href="/images/logos/favicon.ico" type="image/x-icon"></script><meta name="viewport" content="width=device-width, initial-scale=1">');
   
   // Load (and run) external scripts
   head.insertAdjacentHTML("beforeend", '<script src="https://kit.fontawesome.com/1e53eeabd1.js" crossorigin="anonymous"></script><script src="https://www.googleoptimize.com/optimize.js?id=OPT-TNV37V3"></script><script async defer src="https://buttons.github.io/buttons.js"></script>');
