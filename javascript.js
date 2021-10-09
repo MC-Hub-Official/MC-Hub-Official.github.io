@@ -10,16 +10,7 @@ class MCHubHeader extends HTMLElement {
     this.insertAdjacentHTML("beforeend", '<div class="navbar"><div class="dropdown"><button class="dropbtn">Menu</button><div class="dropdown-content"><a href="/">Hub</a><a href="/tips">Tips</a><a href="/seeds">Seeds</a><a href="/facts">Facts</a><a href="/commands">Commands</a><a href="/search"> Search </a></div></div></div><br /><br /><br />');
 
     // Insert abandoned message
-    this.insertAdjacentHTML("beforeend", `
-    <div class="message" style="border: 3px solid #FF0000;">
-      <h3> MC Hub is now <b>unmaintained</b>! </h3>
-      <p> Content may be outdated or incorrect. </p>
-      <p> We are not accepting applications for new maintainers but feel free to create a pull request on <a href="https://github.com/MC-Hub-Official/MC-Hub">GitHub</a>. </p>
-      <p> The domain name will not be renewed; you'll be able to access it through <a href="https://MC-Hub-Official.github.io/MC-Hub/">https://MC-Hub-Official.github.io/MC-Hub/</a>.</p>
-      <p> I have lost interest in Minecraft (ninjadev64/ninjagamer64) and the other two maintainers have lost interest in this project. </p>
-      <p> We may update the website once in a while but very rarely. The YouTube channel is no longer available. </p>
-    </div><br />
-    `)
+    this.insertAdjacentHTML("beforeend", '<div class="message" style="border: 3px solid #FF0000;"><h3> MC Hub is now <b>unmaintained</b>! </h3><p> Content may be outdated or incorrect. </p><p> We are not accepting applications for new maintainers but feel free to create a pull request on <a href="https://github.com/MC-Hub-Official/MC-Hub">GitHub</a>. </p><p> The domain name will not be renewed; you\'ll be able to access it through <a href="https://MC-Hub-Official.github.io/MC-Hub/">https://MC-Hub-Official.github.io/MC-Hub/</a>.</p><p> I have lost interest in Minecraft (ninjadev64/ninjagamer64) and the other two maintainers have lost interest in this project. </p><p> We may update the website once in a while but very rarely. The YouTube channel is no longer available. </p></div><br />')
   }
 }
 
