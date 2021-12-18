@@ -11,8 +11,4 @@ MC Hub is now **unmaintained** (the license still applies!). See the website for
 
 • [Krypto](https://github.com/KryptoYT)
 
-[Additional credits on our Credits page](https://minecraft-hub.com/credits)
-
-# License
-
-Please read the MC Hub code license at [.github/LICENSE.md](https://github.com/MC-Hub-Official/MC-Hub/blob/master/.github/LICENSE.md)
+[Additional credits on our Credits page](https://mc-hub-official.github.io/credits)
